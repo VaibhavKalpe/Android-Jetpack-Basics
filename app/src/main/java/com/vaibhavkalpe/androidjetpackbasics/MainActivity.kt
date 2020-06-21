@@ -2,6 +2,7 @@ package com.vaibhavkalpe.androidjetpackbasics
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import com.vaibhavkalpe.androidjetpackbasics.databinding.ActivityMainBinding
 
@@ -21,8 +22,25 @@ class MainActivity : AppCompatActivity() {
             mainModel.firstNumber = binding.firstNumber.text.toString().toInt()
             mainModel.secondNumber = binding.secondNumber.text.toString().toInt()
 
-            binding.finalAnswer.text = mainModel.getAddition().toString()
+            mainModel.performAddition()
+            /**
+             * Here we have only set value of firstNumber and secondNumber whenever button is pressed.
+             * We are displaying value of final answer. We are just asking viewModel to perform
+             * calculation on activity behalf when button is clicked.
+             */
         }
+
+
+        /**
+         * Here are observing any changes in finalResult live data through viewModel
+         * Whenever finalResult is updated, the code in observer block triggered every time.
+         * The value of live data is returned to us as 'it'.
+         * This is how whenever final answer changes, textView is updated with final answer, without
+         * our involvement.
+         */
+        mainModel.finalResult.observe(this, Observer {
+            binding.finalAnswer.text = it.toString()
+        })
 
     }
 }
