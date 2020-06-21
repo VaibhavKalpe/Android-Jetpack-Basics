@@ -11,4 +11,4 @@ as follows :
 
 1. [Basic concept of ViewModel](tree/Basic_concept_of_ViewModel)
 2. [Basic concept of ViewBinding](tree/Basic_concept_of_ViewBinding)
-3. [Basic concept of LiveData](tree/Bacis_concept_of_LiveData)
+3. [Basic concept of LiveData](tree/Basic_concept_of_LiveData)
