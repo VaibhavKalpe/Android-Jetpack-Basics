@@ -1,9 +1,11 @@
 Many explanations of Jetpack around the internet are not simple enough.
-They involve a little bit of complexity that a beginner may have difficult time to grasp the basic 
+They involve a little bit of complexity that a beginner may have difficult time, to grasp the basic 
 concept. That is why to explain the concept in very bare-bones way, I have chosen to use a simple example of 
-addition of two numbers. 
+addition of two numbers.
 
 <img src="Addition.gif" width="50%" height="50%">
+
+For the sake of simplicity the error handling is not implemented.
 
 The explanation of Jetpack components is in their respective branches.
 If you do not have any info about Jetpacks and you are just starting then the recommended order is
