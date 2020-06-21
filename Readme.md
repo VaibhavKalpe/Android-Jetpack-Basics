@@ -3,10 +3,12 @@ They involve a little bit of complexity that a beginner may have difficult time 
 concept. That is why to explain the concept in very bare-bones way, I have chosen to use a simple example of 
 addition of two numbers. 
 
+![Addition](Addition.gif)
+
 The explanation of Jetpack components is in their respective branches.
 If you do not have any info about Jetpacks and you are just starting then the recommended order is
 as follows : 
 
-1. Basic_concept_of_ViewModel
-2. Basic_concept_of_ViewBinding
-3. Basic_concept_of_LiveData
+1. [Basic concept of ViewModel](tree/Basic_concept_of_ViewModel)
+2. [Basic concept of ViewBinding](tree/Basic_concept_of_ViewBinding)
+3. [Basic concept of LiveData](tree/Bacis_concept_of_LiveData)
