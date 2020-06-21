@@ -9,6 +9,6 @@ The explanation of Jetpack components is in their respective branches.
 If you do not have any info about Jetpacks and you are just starting then the recommended order is
 as follows : 
 
-1. [Basic concept of ViewModel](tree/Basic_concept_of_ViewModel)
-2. [Basic concept of ViewBinding](tree/Basic_concept_of_ViewBinding)
-3. [Basic concept of LiveData](tree/Basic_concept_of_LiveData)
+1. [Basic concept of ViewModel](https://github.com/VaibhavKalpe/Android-Jetpack-Basics/tree/Basic_concept_of_ViewModel)
+2. [Basic concept of ViewBinding](https://github.com/VaibhavKalpe/Android-Jetpack-Basics/tree/Basic_concept_of_ViewBinding)
+3. [Basic concept of LiveData](https://github.com/VaibhavKalpe/Android-Jetpack-Basics/tree/Basic_concept_of_LiveData)
