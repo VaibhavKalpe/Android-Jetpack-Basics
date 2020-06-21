@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             /**
              * Here we have only set value of firstNumber and secondNumber whenever button is pressed.
              * We are displaying value of final answer. We are just asking viewModel to perform
-             * calculation on activity behalf when button is clicked.
+             * calculation on behalf of activity when button is clicked.
              */
         }
 
