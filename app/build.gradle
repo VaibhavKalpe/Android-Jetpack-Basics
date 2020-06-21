@@ -22,6 +22,16 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    /**
+     * All you have to do is add this block in your app module level build.gradle file.
+     *
+     * That's it. That was it. Binding classes will be automatically generated for every layout
+     * file. Look into main activity how viewBinding is used.
+     */
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
