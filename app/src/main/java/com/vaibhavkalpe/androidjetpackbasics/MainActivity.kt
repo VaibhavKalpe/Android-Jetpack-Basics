@@ -2,9 +2,6 @@ package com.vaibhavkalpe.androidjetpackbasics
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
 import androidx.lifecycle.ViewModelProvider
 import com.vaibhavkalpe.androidjetpackbasics.databinding.ActivityMainBinding
 
@@ -17,8 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         //Here we have set the layout of activity using view binding
         binding = ActivityMainBinding.inflate(layoutInflater)
-        val rootView = binding.root
-        setContentView(rootView)
+        setContentView(binding.root)
 
         //There is no need to use findViewById now. Just use binding object to access
         //all view elements declared in layout.
