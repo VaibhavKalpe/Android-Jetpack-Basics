@@ -11,14 +11,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        //Here we have set the layout of activity using view binding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
-        //There is no need to use findViewById now. Just use binding object to access
-        //all view elements declared in layout.
-        //Note: You need to declare the id of view to access it via binding object
 
         val mainModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
